@@ -2,7 +2,8 @@ N101 Computer Science
 =====================
 
 ## IB SL year 1
-#### Bubble Sort
+ #### Bubble Sort
+  > A simple sorting algorithm to run through a list of numbers and sort them from smallest to largest
  
 ```javascript
 static int[] selectionSort (int[] a) {
