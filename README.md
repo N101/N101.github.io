@@ -22,3 +22,31 @@ static int[] selectionSort (int[] a) {
     }
 ```
 
+#### Selection Sort
+ > Another sorting algorithm, but a bit more efficient than the Bubble Sort method as it takes the min value and then 
+ > places it at its corresponding spot.
+
+```javascript
+static int[] selectionSort (int[] a) {
+        for(int i=0; i<a.length; i++) {
+            int minPos = getMinPos(a, i);
+            int temp = a[i];
+            a[i] = a[minPos];
+            a[minPos] = temp;
+        }
+        return a;
+    }
+    
+    private static int getMinPos(int[] a, int start) {
+        int min = a[start];
+        int minPos = start;
+        for (int i=start; i<a.length; i++) {
+            if (a[i] < min) {
+                min = a[i];
+                minPos = i;
+            }
+        }
+        return minPos;
+    }
+```
+
