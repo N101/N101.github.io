@@ -1,9 +1,9 @@
 N101 Computer Science
 =====================
 
-        ## IB SL year 1
-        #### Bubble Sort
-        
+## IB SL year 1
+ #### Bubble Sort
+ 
 ```javascript
 static int[] selectionSort (int[] a) {
         for(int i=0; i<a.length-1; i++) {
