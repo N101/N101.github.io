@@ -2,7 +2,7 @@ N101 Computer Science
 =====================
 
 ## IB SL year 1
- #### Bubble Sort
+#### Bubble Sort
  
 ```javascript
 static int[] selectionSort (int[] a) {
@@ -21,5 +21,3 @@ static int[] selectionSort (int[] a) {
     }
 ```
 
-
-# N101.github.io
